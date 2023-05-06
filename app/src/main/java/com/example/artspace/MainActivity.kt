@@ -126,6 +126,7 @@ fun ArtDescription (
 @Composable
 fun ArtWall(
     painter: Painter,
+    contentDescription: String,
     modifier: Modifier = Modifier
 ) {
     Surface(
@@ -135,7 +136,7 @@ fun ArtWall(
     ) {
         Image(
             painter = painter,
-            contentDescription = "Art",
+            contentDescription = contentDescription,
             modifier = Modifier.padding(26.dp),
             contentScale = ContentScale.Inside
         )
@@ -160,7 +161,7 @@ fun ArtSpaceCard(
         verticalArrangement = Arrangement.SpaceBetween
     ) {
         Spacer(modifier = Modifier.height(20.dp))
-        ArtWall(painter)
+        ArtWall(painter = painter, contentDescription = artName)
         Spacer(modifier = Modifier.height(20.dp))
         ArtDescription(artName = artName, nameArtist = nameArtist, year = year)
         RowWithButtons(
