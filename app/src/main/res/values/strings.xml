@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Art Space</string>
+    <string name="rider">Daughters of Pacini, Giovannina and Amazilia</string>
+    <string name="rider_artist">Karl Bryullov</string>
+    <string name="rider_year">1832</string>
+    <string name="the_ninth_wave">The Ninth Wave</string>
+    <string name="the_ninth_wave_artist">Ivan Aivazovsky</string>
+    <string name="the_ninth_wave_year">1850</string>
+    <string name="chronos">Chronos</string>
+    <string name="chronos_artist">Nikolay Anokhin</string>
+    <string name="chronos_year">2007</string>
+    <string name="catherine">Catherine II</string>
+    <string name="catherine_artist">Aleksey Antropov</string>
+    <string name="catherine_year">1760s</string>
+    <string name="annushka">Kalmyk girl Annushka</string>
+    <string name="annushka_artist">Ivan Argunov</string>
+    <string name="annushka_year">1767</string>
+    <string name="bashkirtseff">Self-portrait with a Palette</string>
+    <string name="bashkirtseff_artist">Marie Bashkirtseff</string>
+    <string name="bashkirtseff_year">1880</string>
+    <string name="lopukhina">Maria Lopukhina</string>
+    <string name="lopukhina_artist">\tVladimir Borovikovsky</string>
+    <string name="lopukhina_year">1797</string>
+    <string name="pushkina">Natalia Pushkina</string>
+    <string name="pushkina_artist">Alexander Briullov</string>
+    <string name="pushkina_year">1831</string>
+    <string name="tarakanova">Princess Tarakanova</string>
+    <string name="tarakanova_artist">Konstantin Flavitsky</string>
+    <string name="tarakanova_year">1864</string>
+    <string name="young_girl">Young girl</string>
+    <string name="young_girl_artist">Alexei Harlamov</string>
+    <string name="young_girl_year">unknown</string>
+</resources>
