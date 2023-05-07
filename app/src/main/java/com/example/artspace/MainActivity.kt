@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -130,14 +131,15 @@ fun ArtWall(
     modifier: Modifier = Modifier
 ) {
     Surface(
-        modifier = modifier.fillMaxWidth(),
         border = BorderStroke(2.5.dp, Color.LightGray),
         shadowElevation = 10.dp
     ) {
         Image(
             painter = painter,
             contentDescription = contentDescription,
-            modifier = Modifier.padding(26.dp),
+            modifier = modifier
+                .aspectRatio(1f / 1f)
+                .padding(26.dp),
             contentScale = ContentScale.Inside
         )
     }
@@ -151,11 +153,12 @@ fun ArtSpaceCard(
     artName: String,
     nameArtist: String,
     year: String,
-    modifier: Modifier = Modifier.fillMaxSize()
+    modifier: Modifier = Modifier
 ) {
 
     Column(
         modifier = modifier
+            .fillMaxSize()
             .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.SpaceBetween
